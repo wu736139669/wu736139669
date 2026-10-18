@@ -11,8 +11,11 @@ I build reusable skills for AI coding agents, with a focus on clear goals, pract
 Turn a broad request into a Goal with an observable outcome, a bounded work loop, acceptance evidence, and clear stop conditions. Useful for coding, game development, and research that spans several iterations.
 
 Start with a loop preview, keep a durable checkpoint, and make the next step explicit.
+Try a short read-only task before adapting it to a longer coding or game-development workflow.
 
-[Read the guide](https://github.com/wu736139669/goal-instruction-writer#readme) · [中文说明](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/README.zh-CN.md)
+[Start in two minutes](https://github.com/wu736139669/goal-instruction-writer#start-in-two-minutes) · [Three prompts to try](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/quickstart-examples.md) · [English demo](https://github.com/wu736139669/goal-instruction-writer/releases/download/v0.2.4/goal-overview-en.mp4)
+
+If the workflow helps you, [star Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer) to keep it handy and follow new examples.
 
 ### [Agent TaskGraph](https://github.com/wu736139669/agent-taskgraph-protocol)
 

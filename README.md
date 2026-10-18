@@ -1,14 +1,27 @@
-### Hi, I'm 吴盛华 👋
+# Hi, I'm 吴盛华
 
-I build small, useful things for the web — often with AI agents as co-workers.
+I build reusable skills for AI coding agents, with a focus on clear goals, practical collaboration, and reviewable results.
 
-**Featured projects**
+## Featured skills
 
-- 🧰 **[Tool Pantry](https://toolpantry.app)** — 170+ free browser tools for files (PDF, images, converters, calculators). Everything runs locally in your browser: no uploads, no accounts. The site also serves [clean Markdown to AI agents](https://toolpantry.app/agent-ready-checker) and a [machine-readable tool catalog](https://toolpantry.app/tools.json).
-- 🧩 **[toolpantry-skill](https://github.com/wu736139669/toolpantry-skill)** — Agent skill that routes file-processing requests to Tool Pantry's 164 local-processing tools (works with Claude Code, Codex, opencode).
-- 📡 **[AI Radar](https://radar.aichickenfarm.cn)** — automated Chinese-language AI daily digest: sources → LLM analysis → static site, published every morning.
-- 🤝 **[markdown-for-agents-worker](https://github.com/wu736139669/markdown-for-agents-worker)** — free Cloudflare Worker that serves Markdown to AI agents via content negotiation, plus its companion [GitHub Action](https://github.com/wu736139669/markdown-for-agents-action).
-- 📊 **[ai-agent-readiness-2026](https://github.com/wu736139669/ai-agent-readiness-2026)** — dataset: of 184 popular tool sites, only 1.6% serve Markdown to AI agents.
-- 🕸️ **[agent-taskgraph-protocol](https://github.com/wu736139669/agent-taskgraph-protocol)** — a graph protocol for coordinating Claude Code / Codex agent teams.
+### [Goal Instruction Writer](https://github.com/wu736139669/goal-instruction-writer)
 
-More tools and experiments: [toolpantry.app](https://toolpantry.app)
+Turn a broad request into a Goal with an observable outcome, a bounded work loop, acceptance evidence, and clear stop conditions. Useful for coding, game development, and research that spans several iterations.
+
+Start with a loop preview, keep a durable checkpoint, and make the next step explicit.
+
+[Read the guide](https://github.com/wu736139669/goal-instruction-writer#readme) · [中文说明](https://github.com/wu736139669/goal-instruction-writer/blob/main/docs/README.zh-CN.md)
+
+### [Agent TaskGraph](https://github.com/wu736139669/agent-taskgraph-protocol)
+
+Coordinate native Codex and Claude Code agents around a shared outcome. Define roles, task dependencies, write boundaries, handoffs, review, and integration.
+
+Choose Solo, Delegation, or Team to suit the work, with optional repository checkpoints for longer tasks.
+
+[Read the guide](https://github.com/wu736139669/agent-taskgraph-protocol#readme) · [中文说明](https://github.com/wu736139669/agent-taskgraph-protocol/blob/main/README.zh-CN.md)
+
+## How they fit together
+
+**Goal Instruction Writer** defines the outcome and the evidence needed to finish. **Agent TaskGraph** organizes who does the work and how their contributions come together.
+
+The focus is on practical workflows that leave a clear result and a usable handoff.

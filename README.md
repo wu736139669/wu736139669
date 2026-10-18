@@ -1,3 +1,5 @@
+![A retro pixel-art workshop where robots plan tasks, build together and check the finished result.](assets/agent-workshop-pixel-v1.png)
+
 # Hi, I'm 吴盛华
 
 I build reusable skills for AI coding agents, with a focus on clear goals, practical collaboration, and reviewable results.
